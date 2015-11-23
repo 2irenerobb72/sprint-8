@@ -1,0 +1,37 @@
+
+.board {
+  border: 1px solid #eee;
+  margin: 50px auto;
+  width: 300px;
+}
+
+.empty,
+.player-o,
+.player-x {
+  border: 1px solid #eee;
+  float: left;
+  font-size: 80px;
+  font-weight: bold;
+  height: 98px;
+  line-height: 98px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 98px;
+}
+
+.player-o { color: ForestGreen; }
+.player-x { color: DarkRed; }
+
+.game-over {
+  clear: both;
+  color: Indigo;
+  font-size: 8rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+h1 {
+  color: CadetBlue;
+  font-weight: normal;
+  text-align: center;
+}

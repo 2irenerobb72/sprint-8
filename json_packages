@@ -1,0 +1,38 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jspm": "^0.16.15"
+  },
+  "jspm": {
+    "dependencies": {
+      "jsx": "npm:jspm-loader-jsx@^0.0.7",
+      "react": "npm:react@^0.14.3",
+      "react-dom": "npm:react-dom@^0.14.3"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
+{
+  "colors": [
+    {
+      "name": "cornsilk",
+      "hue": 48,
+      "saturation": 100,
+      "lightness": 93,
+      "id": 1
+    }
+  ],
+  "games": []
+}
